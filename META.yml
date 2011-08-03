@@ -25,7 +25,7 @@ no_index:
     - inc
     - t
 requires:
-  Error::Pure: 0.01
+  Error::Pure: 0.05
   Exporter: 0
   Readonly: 0
 resources:
@@ -34,4 +34,4 @@ resources:
     type: git
     url: git://github.com/tupinek/Class-Utils
     web: https://github.com/tupinek/Class-Utils
-version: 0.01
+version: 0.02

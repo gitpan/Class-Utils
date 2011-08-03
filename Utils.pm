@@ -13,7 +13,7 @@ use Readonly;
 Readonly::Array our @EXPORT_OK => qw(set_params);
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Set parameters to user values.
 sub set_params {
@@ -106,9 +106,9 @@ Class::Utils - Class utilities.
 
 =head1 DEPENDENCIES
 
-L<Error::Pure(3pm)>,
-L<Exporter(3pm)>,
-L<Readonly(3pm)>.
+L<Error::Pure>,
+L<Exporter>,
+L<Readonly>.
 
 =head1 REPOSITORY
 
@@ -116,8 +116,9 @@ L<https://github.com/tupinek/Class-Utils>
 
 =head1 AUTHOR
 
- Michal Špaček L<mailto:skim@cpan.org>
- L<http://skim.cz>
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
 
 =head1 LICENSE AND COPYRIGHT
 
@@ -125,6 +126,6 @@ BSD license.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
