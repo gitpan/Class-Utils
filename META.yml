@@ -27,7 +27,7 @@ no_index:
     - inc
     - t
 requires:
-  Error::Pure: 0.08
+  Error::Pure: 0.09
   Exporter: 0
   Readonly: 0
 resources:
@@ -35,4 +35,4 @@ resources:
   homepage: https://github.com/tupinek/Class-Utils
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Class-Utils
-version: 0.03
+version: 0.04
